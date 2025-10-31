@@ -42,7 +42,7 @@ body {
 
 .auth .btn {
   margin-left: 10px;
-  padding: 6px 14px;
+  padding: 1rem 14px;
   border: none;
   border-radius: 5px;
   font-weight: 600;
@@ -58,8 +58,9 @@ body {
   background: #ff7b00;
 }
 .sign-up {
+  display: inline-block; /* hoặc block, tùy layout */
   background: #fff;
-  border: 1px solid #ff9900;
+  border: 1px solid blue !important;
   color: #ff9900;
 }
 .sign-up:hover {
